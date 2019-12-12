@@ -1,5 +1,6 @@
-//Caesar Cipher that only works for uppercase letters
+//Caesar Cipher
 function rot13(str) {
+  str = str.toUpperCase();
   var input = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   var output = 'NOPQRSTUVWXYZABCDEFGHIJKLM';
   //function for finding the currect index value of the chr
