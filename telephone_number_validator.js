@@ -1,3 +1,5 @@
+//validate the format of a given telephone number using regular expressions
+
 function telephoneCheck(str) {
   //(1\s?)? checks for a 1 or 1 with space if it is there
   //\d{3} checks for three digits
@@ -10,4 +12,4 @@ function telephoneCheck(str) {
 }
 
 //example
-telephoneCheck("-1 (757) 622-7382");
+telephoneCheck("-1 (757) 622-7382"); //returns false
