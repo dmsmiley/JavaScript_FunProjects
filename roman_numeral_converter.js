@@ -1,4 +1,5 @@
-
+//convertToRoman takes any integer between 1 and 3999 and converts it to roman numerals via recursion
+//romanToArabic takes any set of roman numerals between 1 and 3999 and converts it to an integer
 
 function convertToRoman(num) {
     if (num >= 4000) {return "Please enter a number between 1 and 3999"}
@@ -18,7 +19,6 @@ function convertToRoman(num) {
     else if(num == 0) { return ""}
 }
 
-//using the recursive method to convert a number into a roman numberal
 function romanToArabic(romanNumber){
   romanNumber = romanNumber.toUpperCase();
   const romanNumList = ["CM","M","CD","D","XC","C","XL","L","IX","X","IV","V","I"];
